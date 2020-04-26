@@ -6,6 +6,7 @@
 #include <boost/property_tree/json_parser.hpp>
 #include <thread>
 #include <chrono>
+#include <cstdlib>
 #include "Client.h"
 
 using namespace std;
@@ -79,7 +80,7 @@ int main()
 		}
 	}
 
-	cin.get();
+	system("pause");
 }
 
 vector<string> split(const string& str, const string& delim)
